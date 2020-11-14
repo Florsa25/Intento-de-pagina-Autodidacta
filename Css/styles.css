@@ -1,3 +1,14 @@
+:root {
+  --gold1: #f4bd76;
+  --gold2: #f6cd8f;
+  --grey: #ffffff80;
+  --grey2: #f7d9d990;
+  --black1:#1a1b1f;
+  --black2: #30553b;
+  --shadow:0 8px 8px;
+  --color_shadow: #00000033;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -6,6 +17,56 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0px;
+  height: auto;
+}
+
+.container--modifier {
+  width: 60%;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+}
+
+.nav_hero {
+  color: #ffffff;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  padding: 0px;
+}
+
+.logo_name {
+  font-size: 24px;
+}
+
+.link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.link--active {
+  color: #f4bd76;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */
