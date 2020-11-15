@@ -119,4 +119,94 @@ body {
   border-radius: 6px;
 }
 
+/* services */
+.services {
+  background: #fafafa;
+}
+
+.subtitle {
+  font-size: 42px;
+}
+
+.subtitle--modifier {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.copy_section {
+  color: var(--black2);
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 60px;
+}
+
+.copy_section--modifier {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 30px 0px;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+  border-radius: 10px;
+  position: relative;
+  text-emphasis: right;
+  text-align: right;
+  margin-bottom: 60px;
+  box-shadow: 0 0 6px var--(--color_shadow);
+}
+
+.card_img {
+  text-align: left;
+  width: 95%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.cards_text {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card_list {
+  color: var(--gold2);
+  font-weight: 700;
+  margin: 25px 0px 12px;
+  font-size: 18px;
+}
+
+.card_title {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.card_copy {
+  color: var(--grey2);
+  margin-bottom: 16px;
+}
+
+.card_button {
+  display: block;
+  background: linear-gradient(180deg, #F7ce90 0%, #f4bd76 100%);
+  border-radius: 6px;
+  text-decoration: none;
+  width: 100%;
+  color: var(--black1);
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0px;
+}
+
 /*# sourceMappingURL=styles.css.map */
