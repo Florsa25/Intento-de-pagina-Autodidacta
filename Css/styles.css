@@ -336,6 +336,10 @@ body {
   color: #ffffff;
 }
 
+.testimony_info {
+  width: 70%;
+}
+
 .logo--picture {
   width: 40px;
   height: 40px;
